@@ -1,14 +1,32 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <title>My First Qlik Mashup</title>
+    <title>Qlik Sense Cloud Mashup</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<h1>My First Qlik Mashup</h1>
+    <h1>Sales Dashboard Mashup</h1>
 
-<p>Testing local server</p>
+    <div class="chart-container">
+        <h2>Total Revenue</h2>
+        <div id="revenue"></div>
+    </div>
+
+    <div class="chart-container">
+        <h2>Monthly Revenue</h2>
+        <div id="monthlyRevenue"></div>
+    </div>
+
+    <div class="chart-container">
+        <h2>Top Customers</h2>
+        <div id="topCustomers"></div>
+    </div>
+
+    <script src="app.js"></script>
 
 </body>
+
 </html>
